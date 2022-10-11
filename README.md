@@ -2,11 +2,14 @@
 
 
 ## Description
-This script will allow create a connection in python to bigquery. It will list all datasets, tables and give a snapshot of the first 5 rows of each table
+This script will allow create a connection in python to bigquery. There are 2 scripts within this repository
 
-This script needs to be used with a json file containing the details of a service account key, the data returned will be limited to the access granted to the service account key
+* BQ_Access.ipynb - will list all datasets, tables and give a snapshot of the first 5 rows of each table
+* BQ_Single_Table_Example.ipynb – will return all the rows from to 1 table to a dataframe and then print the dataframe
 
-This is an example script to access data, this can be used as a base to develop a script to performance the function you require
+These scripts need to be used with a json file containing the details of a service account key, the data returned will be limited to the access granted to the service account key
+
+These are example scripts to access data, these can be used as a base to develop scripts to perform the function you require
 
 ## Usage
 
